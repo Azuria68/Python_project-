@@ -1,0 +1,55 @@
+LANCHEC TOM PROJET IPR L2 2022
+
+Tous les fichiers sources sont initialisés dans un environnement python3 et encodés en utf-8 :
+#!/usr/bin/python3
+# -*- coding:utf8 -*-
+
+EXERCICE 1 : 
+
+Pour cet exercice, en utilisant l'environnement de développement spyder, j'execute mon script depuis : 
+'C:/Users/Tomla/Desktop/Projet IPR LANCHEC Tom/Exercice_1.py', wdir='C:/Users/Tomla/Desktop/Projet IPR LANCHEC Tom'
+
+Pour cet exercice il n'est pas nécessaire d'entrer des valeurs. Elles sont directement fournies dans le script. 
+Pour lancer le script depuis spyder, j'appuie sur F5 
+
+EXERCICE 2 : 
+
+Pour cet exercice, en utilisant l'environnement de développement spyder, j'execute mon script depuis : 
+'C:/Users/Tomla/Desktop/Projet IPR LANCHEC Tom/Exercice_2.py', wdir='C:/Users/Tomla/Desktop/Projet IPR LANCHEC Tom'
+
+Il n'y a aucune information à rentrer pour cet exercice.
+En exécutant le programme une fenêtre supplémentaire s'ouvre, c'est Pyhton Turtle Graphics. 
+On peut alors observer lorsque les commandes s'exécutent et dessinent la figure demandé.
+
+EXERCICE 3 :
+
+Pour cet exercice, en utilisant l'environnement de développement spyder, j'execute mon script depuis : 
+'C:/Users/Tomla/Desktop/Projet IPR LANCHEC Tom/Exercice_3.py', wdir='C:/Users/Tomla/Desktop/Projet IPR LANCHEC Tom'
+
+
+Il n'y a aucune information à rentrer pour cet exercice. 
+
+EXERCICE 4 : 
+
+Pour cet exercice, en utilisant l'environnement de développement spyder, j'execute mon script depuis : 
+'C:/Users/Tomla/Desktop/Projet IPR LANCHEC Tom/Exercice_3.py', wdir='C:/Users/Tomla/Desktop/Projet IPR LANCHEC Tom'
+
+Pour les questions 1, 2, 3, 4 et 5, il n'y a aucune information à rentrer, les valeurs sont pré-définies et les exemples pré-enregistrés.
+
+Pour la question 6, on va effectuer 3 essais pour montrer le décalage. Nous devrons définir le cadre de lecture voulu entre 0, 1 ou 2 et cela fera la traduction de l'ARNm en Acides Aminés. 
+Si un codon stop est rencontre le code renvoie à une séquence qui se termine avant ce codon stop et on voit de même une phrase qui s'affiche indiquant qu'un codon stop a éé trouvé. 
+(S'il y a absence de codon stop alors on aura une séquence traduite entièrement ainsi que la phrase "Pas de codon stop dans la séquence")
+Dans le cas ou le cadre de lecture est différent de 0, 1 ou 2 on aura un message d'erreur. 
+
+Pour la question 7a, on aura 3 essais. On aura ici à choisir la position de début de recherche ainsi que le motif qu'on veut chercher. 
+Dans un premier cas j'ai effectué une recherche avec un motif qu'on retrouve pas sur la séquence en cherchant sur toute la séquence. Cela permet de voir qu'il n'y a pas d'erreur au niveau de la recherche 
+Par la suite j'ai cherché un motif qu'on voit sur la séquence avec un cadre décalé pour voir que le programme trouve bien le motif demandé. 
+J'ai ensuite recherche un autre  motif qu'on trouve sur la séquence mais cette fois avec une position différente (donc une recherche pas sur toute la séquence) qui a confirmé le bon fonctionnement du programme dans son entièreté
+
+Pour la question 7b, j'ai effectué la même démarche que pour la question 7a mais cette fois avec des motifs répétitifs d'une longueur de 2 bases azotés. 
+Pou cette question j'ai teste 1 fois le début de lecture non décalé, puis 2 fois décalé (de 3 bases puis de 7 bases sur une séquence de 70 bases) 
+
+Pour la question 8, on aura 3 essais. On a à indiquer la taille de la signature qu'on souhaite. Cette dernière doit être comprise entre 1 et 10. 
+Ainsi le programme cherchera les motifs d'une longueur *taille de la signature choisie* et comptera combien de fois ces derniers sont retrouvés. 
+On remaque que plus la séquence est courte (ex 2 bases) plus il y a de chances que ce dernier soit répété plusieurs fois. 
+Dans le cas ou la taille de la signature dépasse 10 on retrouve un message d'erreur. 
